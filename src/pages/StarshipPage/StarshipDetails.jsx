@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getDetails } from '../../services/sw-api'
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const StarshipDetails = () => {
   const [starshipDetails, setStarshipDetails] = useState({})
@@ -18,9 +18,14 @@ const StarshipDetails = () => {
 
   return (
     <>
-      <h1>Starship Page</h1>
-      <h2>{starshipDetails.name}</h2>
-      <h2>{starshipDetails.model}</h2>
+      <div class="starship-card">
+        <h1>Starship Page</h1>
+        <h3>{starshipDetails.name}</h3>
+        <h3>{starshipDetails.model}</h3>
+        <Link 
+          to='/'>Return To All Starships
+        </Link>
+      </div>
     </>
   )
 }
