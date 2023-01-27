@@ -2,14 +2,14 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 
 import StarshipList from './pages/StarshipList/StarshipList';
-import StarshipPage from './pages/StarshipPage/StarshipPage'
+import StarshipDetails from './pages/StarshipPage/StarshipDetails'
 
 function App() {
   return (
     <>
       <Routes >
         <Route path="/" element={<StarshipList />}/>
-        <Route path="starship" element={<StarshipPage />}/>
+        <Route path="starship" element={<StarshipDetails />}/>
       </Routes>
     </>
   );
