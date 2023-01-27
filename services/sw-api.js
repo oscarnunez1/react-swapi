@@ -1,0 +1,1 @@
+const baseUrl = 'https://www.swapi.dev/api/'
