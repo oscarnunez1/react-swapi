@@ -21,13 +21,11 @@ const StarshipDetails = () => {
       <h1>Starship Details</h1>
       <div class="parent-container">
         <div class="card-details">
-          <h3>{starshipDetails.name}</h3>
-          <h3>{starshipDetails.model}</h3>
-          <h3>
-            <Link 
-              to='/'><span>Return To All Starships</span>
-            </Link>
-          </h3>
+          <h3>Name: {starshipDetails.name}</h3>
+          <h3>Model: {starshipDetails.model}</h3>
+          <Link 
+            to='/' className="return-button"><button>Return To All Starships</button>
+          </Link>
         </div>
       </div>
     </>

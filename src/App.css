@@ -49,18 +49,20 @@
 
 h1 {
   text-align: center;
+  align-content: center;
   font-family: 'Star Wars', sans-serif;
   background-color: lightgray;
-  color: goldenrod;
+  color: #FFD814;
   margin: 0;
   padding: 1px;
   -webkit-text-stroke: 1px black ;
   font-size: 35px;
   margin-bottom: 10%;
   width: 100%;
+  height: 50px;
 }
 
-a {
+.starships {
   color: white;
   vertical-align: middle;
   text-decoration: none;
@@ -73,10 +75,35 @@ a {
   font-size: 20px;
 }
 
-a:hover {
+.starships:hover {
   color: black;
 }
 
 span:hover {
-  color: gold;
+  color: #FFD814;
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  background: #FFD814;
+  border: 1px solid #FCD200;
+  font-size: 13px;
+  height: 31px;
+  padding: 0 11px;
+  text-align: center;
+  width: 80%;
+  min-width: 200px;
+  font-weight: 500;
+  color: #0F1111;
+  
+}
+
+button:hover{
+  background: #F7CA00;
+  border-color: #F2C200;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 }
