@@ -18,13 +18,15 @@ const StarshipDetails = () => {
 
   return (
     <>
-      <div class="starship-card">
-        <h1>Starship Page</h1>
-        <h3>{starshipDetails.name}</h3>
-        <h3>{starshipDetails.model}</h3>
-        <Link 
-          to='/'>Return To All Starships
-        </Link>
+      <nav><h1>Starship Details</h1></nav>
+      <div class="card-detail">
+        <div class="starship-card">
+          <h3>{starshipDetails.name}</h3>
+          <h3>{starshipDetails.model}</h3>
+          <Link 
+            to='/'><span>Return To All Starships</span>
+          </Link>
+        </div>
       </div>
     </>
   )
