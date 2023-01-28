@@ -1,3 +1,11 @@
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -25,19 +33,21 @@
   border: 2px solid gold;
 }
 
-.starship-card {
+.card-details {
   text-align: center;
+  justify-content: center;
+  border: 5px solid;
   width: 290px;
   height: 190px;
   text-decoration: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 black;
   background-color: #2f4f4f;
-  color: white;
-  position: absolute;
+  color: lightgray;
 }
 
-nav {
+
+h1 {
   text-align: center;
   font-family: 'Star Wars', sans-serif;
   background-color: lightgray;
@@ -46,6 +56,8 @@ nav {
   padding: 1px;
   -webkit-text-stroke: 1px black ;
   font-size: 35px;
+  margin-bottom: 10%;
+  width: 100%;
 }
 
 a {
@@ -65,3 +77,6 @@ a:hover {
   color: black;
 }
 
+span:hover {
+  color: gold;
+}

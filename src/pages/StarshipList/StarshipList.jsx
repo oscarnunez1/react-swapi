@@ -15,7 +15,7 @@ const StarshipList = () => {
 
   return (
     <>
-      <nav><h1>Star Wars Starships</h1></nav>
+      <h1>Star Wars Starships</h1>
       {starshipList.length ?
         <>
           <div class="card-container">
