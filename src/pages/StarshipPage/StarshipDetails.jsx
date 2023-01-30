@@ -24,7 +24,7 @@ const StarshipDetails = () => {
           <h3>Name: {starshipDetails.name}</h3>
           <h3>Model: {starshipDetails.model}</h3>
           <Link 
-            to='/' className="return-button"><button>Return To All Starships</button>
+            to='/' className="animated-btn"><button>Return To All Starships</button>
           </Link>
         </div>
       </div>
