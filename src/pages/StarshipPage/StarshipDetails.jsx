@@ -9,7 +9,6 @@ const StarshipDetails = () => {
   useEffect(() => {
     const fetchDetails = async () => {
       const starshipData = await getDetails(location.state.starship.url)
-      console.log(starshipData);
       setStarshipDetails(starshipData)
     }
     fetchDetails()
